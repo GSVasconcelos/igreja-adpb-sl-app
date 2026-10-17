@@ -3,7 +3,7 @@ plugins {
 }
 
 android {
-    namespace = "com.example.assembliadedeus"
+    namespace = "com.example.assembleiadedeus"
     compileSdk {
         version = release(36) {
             minorApiLevel = 1
@@ -11,7 +11,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.assembliadedeus"
+        applicationId = "com.example.assembleiadedeus"
         minSdk = 24
         targetSdk = 36
         versionCode = 1
@@ -43,4 +43,8 @@ dependencies {
     testImplementation(libs.junit)
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
+
+    // Navigation Component for Java
+    implementation("androidx.navigation:navigation-fragment:2.7.7")
+    implementation("androidx.navigation:navigation-ui:2.7.7")
 }

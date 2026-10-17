@@ -1,4 +1,4 @@
-package com.example.assembliadedeus;
+package com.example.assembleiadedeus;
 
 import org.junit.Test;
 

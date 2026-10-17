@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/nav_home">
+
+    <!-- Tela 1: Home / Início -->
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.assembleiadedeus.ui.home.HomeFragment"
+        android:label="Início"
+        tools:layout="@layout/fragment_home" />
+
+    <!-- Tela 2: Agenda de Cultos -->
+    <fragment
+        android:id="@+id/nav_culto"
+        android:name="com.example.assembleiadedeus.ui.culto.CultoFragment"
+        android:label="Cultos"
+        tools:layout="@layout/fragment_culto" />
+
+    <!-- Tela 3: Harpa Cristã -->
+    <fragment
+        android:id="@+id/nav_harpa"
+        android:name="com.example.assembleiadedeus.ui.harpa.HarpaFragment"
+        android:label="Harpa Cristã"
+        tools:layout="@layout/fragment_harpa" />
+
+</navigation>
