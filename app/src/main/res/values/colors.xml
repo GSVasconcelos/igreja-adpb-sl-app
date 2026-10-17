@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cores Principais (Assembleia de Deus) -->
+    <color name="primary_blue">#1A365D</color>
+    <color name="primary_dark">#0F223D</color>
+    <color name="accent_gold">#D4AF37</color>
+
+    <!-- Cores Neutras e de Fundo -->
+    <color name="background_light">#F8F9FA</color>
+    <color name="surface_white">#FFFFFF</color>
+
+    <!-- Cores de Texto -->
+    <color name="text_primary">#212529</color>
+    <color name="text_secondary">#6C757D</color>
+</resources>

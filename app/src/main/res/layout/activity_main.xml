@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/background_light">
+
+    <!-- Cabeçalho Principal -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/primary_blue"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Assembleia de Deus"
+            android:textColor="@color/accent_gold"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Gestão &amp; Devocional"
+            android:textColor="@color/surface_white"
+            android:textSize="14sp" />
+    </LinearLayout>
+
+    <!-- Botões de Acesso Rápido -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Botão Secretaria -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnSecretaria"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="Carteirinhas de Membros"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            app:backgroundTint="@color/primary_blue"
+            app:cornerRadius="8dp" />
+
+        <!-- Botão Harpa Cristã -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnHarpa"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="12dp"
+            android:text="Harpa Cristã"
+            android:textColor="@color/text_primary"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            app:backgroundTint="@color/accent_gold"
+            app:cornerRadius="8dp" />
+
+        <!-- Botão Cultos -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnCultos"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="12dp"
+            android:text="Agenda de Cultos e Missões"
+            android:textColor="@color/text_primary"
+            android:textAllCaps="false"
+            android:textSize="16sp"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            app:strokeColor="@color/primary_blue"
+            app:strokeWidth="2dp"
+            app:cornerRadius="8dp" />
+
+    </LinearLayout>
+
+</LinearLayout>
