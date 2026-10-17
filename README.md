@@ -1,2 +1,2 @@
-# asembleia-de-deus-sl
+# Assembleia de Deus em Santa Luzia - PB
 Aplicativo criado em Java para a Assembleia de Deus em Santa Luzia com o intuito de otimizar processos e agregar na qualidade de vida dos membros/irmãos da organização.
